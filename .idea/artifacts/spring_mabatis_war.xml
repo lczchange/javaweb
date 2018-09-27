@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring_mabatis:war">
+    <output-path>$PROJECT_DIR$/spring_mabatis/target</output-path>
+    <root id="archive" name="spring_mabatis.war">
+      <element id="artifact" artifact-name="spring_mabatis:war exploded" />
+    </root>
+  </artifact>
+</component>
