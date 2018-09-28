@@ -6,6 +6,9 @@
         <element id="directory" name="classes">
           <element id="module-output" name="spring_mabatis" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.3.2" />
+        </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/spring_mabatis/target/spring_mabatis/META-INF/MANIFEST.MF" />
