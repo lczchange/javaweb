@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Generator/Generator.iml" filepath="$PROJECT_DIR$/Generator/Generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb_ssm.iml" filepath="$PROJECT_DIR$/javaweb_ssm.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_mabatis/spring_mabatis.iml" filepath="$PROJECT_DIR$/spring_mabatis/spring_mabatis.iml" />
     </modules>
