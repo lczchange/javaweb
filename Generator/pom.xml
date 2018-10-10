@@ -25,6 +25,30 @@
             <artifactId>mybatis-generator-maven-plugin</artifactId>
             <version>1.3.2</version>
         </dependency>
+        <!-- log4j -->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>tools</artifactId>
+            <version>1.0.8</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>3.2.2</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>4.1.9.RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -36,12 +60,13 @@
                 <version>1.3.2</version>
                 <configuration>
                     <!--配置文件的位置-->
-                    <configurationFile>src/main/resources/Personal-GeneratorConfig.xml</configurationFile>
+                   <!-- <configurationFile>//Personal-GeneratorConfig.xml</configurationFile>-->
                     <verbose>true</verbose>
                     <overwrite>true</overwrite>
                 </configuration>
             </plugin>
         </plugins>
+
     </build>
 
 </project>
