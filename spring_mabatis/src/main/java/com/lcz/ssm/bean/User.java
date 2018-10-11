@@ -1,40 +1,55 @@
 package com.lcz.ssm.bean;
 
+import java.util.Date;
+
 public class User {
-    private String name;
-    private String password;
-    private String ext;
+    private Integer id;
 
-    public String getName() {
-        return name;
+    private String username;
+
+    private Date birthday;
+
+    private String sex;
+
+    private String address;
+
+    public Integer getId() {
+        return id;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setId(Integer id) {
+        this.id = id;
     }
 
-    public String getPassword() {
-        return password;
+    public String getUsername() {
+        return username;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setUsername(String username) {
+        this.username = username == null ? null : username.trim();
     }
 
-    public String getExt() {
-        return ext;
+    public Date getBirthday() {
+        return birthday;
     }
 
-    public void setExt(String ext) {
-        this.ext = ext;
+    public void setBirthday(Date birthday) {
+        this.birthday = birthday;
     }
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "name='" + name + '\'' +
-                ", password='" + password + '\'' +
-                ", ext='" + ext + '\'' +
-                '}';
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex == null ? null : sex.trim();
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address == null ? null : address.trim();
     }
 }
