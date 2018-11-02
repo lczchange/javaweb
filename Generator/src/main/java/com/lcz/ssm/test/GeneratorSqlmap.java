@@ -1,9 +1,12 @@
 package com.lcz.ssm.test;
 
+import com.mysql.jdbc.Driver;
+import org.junit.Test;
 import org.mybatis.generator.api.MyBatisGenerator;
 import org.mybatis.generator.internal.DefaultShellCallback;
 
 import java.io.File;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -30,6 +33,34 @@ public class GeneratorSqlmap {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+    }
+
+    @Test
+    public void jdbctest(){
+        try {
+            //注册驱动
+            Class.forName("com.mysql.jdbc.Driver");
+            //获取连接
+            String url = "jdbc:mysql://localhost:3306/";
+            Connection connection = DriverManager.getConnection(url, "root", "123456");
+            //获取预处理对象
+            PreparedStatement statement = connection.prepareStatement("select from * user");
+            //执行操作，获取结果集
+            ResultSet resultSet = statement.executeQuery();
+            //遍历结果集
+            while (resultSet.next()){
+                System.out.println(resultSet.getString("username"));
+            }
+
+            //释放资源
+            resultSet.close();
+            statement.close();
+            connection.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
 
     }
 

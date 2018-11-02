@@ -9,6 +9,7 @@
       <list>
         <option value="$PROJECT_DIR$/spring_mabatis/pom.xml" />
         <option value="$PROJECT_DIR$/Generator/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_tx/pom.xml" />
       </list>
     </option>
   </component>

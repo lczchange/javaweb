@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
 
+    <bean id="logger" class="com.lcz.ssm.utils.MyLog"></bean>
+    <bean id="userService" class="com.lcz.ssm.service.impl.UserServiceImpl"></bean>
+
+    <aop:config>
+        <!--切入点表达式-->
+        <aop:pointcut id="pt" expression="execution(* com.lcz.ssm.service.impl.*(..))"></aop:pointcut>
+        <!--配置切面-->
+        <aop:aspect id="logAdvice" ref="logger">
+            <!--通知配置-->
+            <aop:before method="beforePrintLog" pointcut-ref="pt"></aop:before>
+            <!--后置通知-->
+            <aop:after-returning method="afterReturnLog" pointcut-ref="pt"></aop:after-returning>
+            <!--异常通知-->
+            <aop:after-throwing method="afterThrowingLog" pointcut-ref="pt"></aop:after-throwing>
+            <!--最终通知-->
+            <aop:after method="afterLog" pointcut-ref="pt"></aop:after>
+        </aop:aspect>
+    </aop:config>
+    <!--开启aop的支持-->
+    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
 </beans>

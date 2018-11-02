@@ -8,11 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Generator" />
         <module name="spring_mabatis" />
+        <module name="spring_tx" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Generator" target="1.5" />
       <module name="spring_mabatis" target="1.7" />
+      <module name="spring_tx" target="1.8" />
+      <module name="spring_tx_xml_anno" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
