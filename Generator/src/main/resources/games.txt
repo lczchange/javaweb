@@ -1,0 +1,133 @@
+{ gameId=>80010 |> name=> 时空猎人  }
+	{ gameId=>80006 |> name=> 时空枪战 }
+	{ gameId=>80005 |> name=> 镇魔曲  }
+	{ gameId=>80004 |> name=> 天下  }
+	{ gameId=>80003 |> name=> 幻城  }
+	{ gameId=>80002 |> name=> 迷城物语 }
+         { gameId=>80012 |> name=> 时空召唤 }
+        { gameId=>80015 |> name=> 大唐无双}
+        {gameId=>80009 |> name=> 镇魔曲-长尾}
+        {gameId=>80017 |> name=>兵界之王-长尾  }
+        {gameId=> 80008 |> name=>坦克连-应用宝 }
+        {gameId=> 80019 |> name=>英雄归来 }
+        {gameId=> 80020 |> name=>黑龙波3D }
+       {gameId=> 80013 |> name=>三少爷的剑-网易-应用宝 }
+       {gameId=> 80014 |> name=>三少爷的剑-网易-长尾 }
+       {gameId=> 80021 |> name=>勇士X勇士-应用宝 }
+       {gameId=> 80022 |> name=>迷雾世界_长尾 }
+       {gameId=> 80023 |> name=>坦克连-长尾 }
+       {gameId=> 80024 |> name=>无敌_长尾 }
+      {gameId=> 80025 |> name=>光明大陆_长尾}
+      {gameId=>80026 |> name=> 魔法禁书目录_应用宝}
+      {gameId=>80027 |> name=> 幻游猎人_应用宝}
+ {gameId=>80028 |> name=> 思美人_长尾}
+ {gameId=>80029 |> name=> 天启联盟_应用宝}
+ {gameId=>80030 |> name=> 三国战记_应用宝}
+ {gameId=>80031 |> name=> 秘宝猎人_长尾}
+ {gameId=>80032 |> name=> 汉王纷争_应用宝}
+ {gameId=>80033 |> name=> 刀剑兵器谱_应用宝}
+ {gameId=>80034 |> name=> 冰火神族}
+ {gameId=>80035 |> name=> 坦克世界闪击战_应用宝}
+ {gameId=>80036 |> name=> 坦克世界闪击战_长尾}
+ {gameId=>80037 |> name=> 元气战姬学院_长尾}
+ {gameId=>80038 |> name=> 星际要塞_应用宝}
+ {gameId=>80039 |> name=> 勇士×勇士_长尾}
+ {gameId=>80040 |> name=> 永远的7日之都_应用宝}
+ {gameId=>80041 |> name=> 卧虎藏龙2_应用宝}
+{gameId=>80042  |> name=>格罗亚传奇_应用宝}
+{gameId=>80043  |> name=>飞刀又见飞刀_长尾}
+{gameId=>80045  |> name=>劲舞时代_长尾}
+{gameId=>80046  |> name=>终结者_审判日_应用宝}
+{gameId=>80047  |> name=>重装突击_应用宝}
+{gameId=>80048  |> name=>魔法禁书目录_长尾}
+{gameId=>80049  |> name=>我的世界_长尾}
+{gameId=>80050  |> name=>叛逆性百万亚瑟王_应用宝}
+{gameId=>80051  |> name=>荆棘王座_长尾}
+{gameId=>80052  |> name=>小汪汪_长尾}
+{gameId=>80053  |> name=>乱世七雄_应用宝}
+{gameId=>80054  |> name=>重装突击_长尾}
+{gameId=>80055  |> name=>天启联盟_长尾}
+{gameId=>80056  |> name=>秘境对决_长尾}
+{gameId=>80057  |> name=>影之诗_应用宝}
+{gameId=>80058  |> name=>格罗亚传奇_长尾}
+{gameId=>63570  |> name=>仙途}
+{gameId=>80059  |> name=>魂之轨迹_长尾}
+{gameId=>80060  |> name=>初音速_应用宝}
+{gameId=>80061  |> name=>主宰灵域}
+{gameId=>80062  |> name=>热血沙巴克}
+{gameId=>80063  |> name=>烈焰传说}
+{gameId=>80064  |> name=>塔防三国志}
+{gameId=>80065  |> name=>狼人杀_应用宝}
+{gameId=>80066  |> name=>狼人杀_长尾}
+{gameId=>80067  |> name=>汉王纷争_长尾}
+{gameId=>80068  |> name=>战国志_应用宝}
+{gameId=>80069  |> name=>九州海上牧云记_应用宝}
+{gameId=>80070  |> name=>楚留香_应用宝}
+{gameId=>80071  |> name=>无尽神域}
+{gameId=>80072  |> name=>三国如龙传_长尾}
+{gameId=>80073  |> name=>永远的7日之都_长尾}
+{gameId=>80074  |> name=>战国_长尾}
+{gameId=>80075  |> name=>荒野行动_长尾}
+{gameId=>80076  |> name=>终结者2_审判日_长尾}
+{gameId=>80077  |> name=>网易成都棋牌_应用宝}
+{gameId=>80078  |> name=>潮人篮球_应用宝}
+{gameId=>80079  |> name=>潮人篮球_长尾}
+{gameId=>80080  |> name=>初音速_长尾}
+{gameId=>80081  |> name=>幻城专服}
+{gameId=>80082  |> name=>超维对决_应用宝}
+{gameId=>80083 |> name=>舰无虚发暗星_应用宝}
+{gameId=>80084 |> name=>秘宝猎人：王牌猎手_应用宝}
+{gameId=>80085 |> name=>决战平安京_长尾}
+{gameId=>80086 |> name=>九州·海上牧云记_长尾}
+{gameId=>80087 |> name=>猎魂觉醒_长尾}
+{gameId=>80088 |> name=>楚留香_长尾}
+{gameId=>80089 |> name=>第五人格_应用宝}
+{gameId=>80090 |> name=>风之旅团}
+{gameId=>80091 |> name=>猎魂觉醒_应用宝}
+{gameId=>80092 |> name=>迷雾求生_应用宝}
+{gameId=>80093 |> name=>猪场怼怼乐_长尾}
+{gameId=>80094 |> name=>非人学院_应用宝}
+{gameId=>80095 |> name=>蜀山侠侣}
+{gameId=>80096 |> name=>超物理基斗_应用宝}
+{gameId=>80097 |> name=>乱斗江湖_应用宝}
+{gameId=>80098 |> name=>量子特攻_应用宝}
+{gameId=>80099 |> name=>孤岛先锋_应用宝}
+{gameId=>80100 |> name=>数码暴龙-激战_应用宝}
+{gameId=>80101 |> name=>樱空释}
+{gameId=>80102 |> name=>三国诛将录_应用宝}
+{gameId=>80103 |> name=>叛逆性百万亚瑟王_长尾}
+{gameId=>80104 |> name=>幻神奇缘}
+{gameId=>80105 |> name=>螺旋圆舞曲_应用宝}
+{gameId=>80106 |> name=>新仙剑奇侠传_长尾}
+{gameId=>80107 |> name=>实况_王者集结_应用宝}
+{gameId=>80108 |> name=>实况足球_应用宝}
+{gameId=>80109 |> name=>第五人格_长尾}
+{gameId=>80110 |> name=>牌武者}
+{gameId=>80111 |> name=>荣耀铁骑_长尾}
+{gameId=>80112 |> name=>九州三国志_长尾}
+{gameId=>80113 |> name=>幻神专服}
+{gameId=>80114 |> name=>权力与纷争_应用宝}
+{gameId=>80115 |> name=>楚乔传_应用宝}
+{gameId=>80116 |> name=>契约战记}
+{gameId=>80117 |> name=>战舰世界闪击战}
+{gameId=>80118 |> name=>神谕文明_应用宝}
+{gameId=>80119 |> name=>武林外传_应用宝}
+{gameId=>80120 |> name=>契约战记压测}
+{gameId=>80121 |> name=>遇见逆水寒}
+{gameId=>80122 |> name=>幻神9377}
+{gameId=>80123 |> name=>明日之后_应用宝}
+{gameId=>80124 |> name=>轩辕剑龙舞云山_应用宝}
+{gameId=>80125 |> name=>刀锋无双2}
+{gameId=>80126 |> name=>幻神汉风}
+{gameId=>80127 |> name=>幻神想想}
+{gameId=>80128 |> name=>风云岛行动_应用宝}
+{gameId=>80129 |> name=>幻神掌媒}
+{gameId=>80130 |> name=>极品主公_长尾}
+{gameId=>80131 |> name=>幻神艾吉米}
+{gameId=>80132 |> name=>幻神猫耳}
+{gameId=>80133 |> name=>幻神幻世界}
+{gameId=>80134 |> name=>幻神天工奇缘}
+{gameId=>80135 |> name=>契约战记QQ空间}
+{gameId=>80136 |> name=>契约战记小游戏}
+{gameId=>80137 |> name=>幻神冰火烈歌}
+{gameId=>80138 |> name=>幻神暗黑超神}
