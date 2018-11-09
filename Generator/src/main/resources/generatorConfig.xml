@@ -57,7 +57,10 @@
             <!-- enableSubPackages:是否让schema作为包的后缀 -->
             <property name="enableSubPackages" value="false"/>
         </javaClientGenerator>
-        <!-- 指定数据库表 -->
+        <!-- 指定数据库表
+        当不以表名作为domain的类名时，可通过domainObjectName 属性定义类名
+        <table tableName="tbl_admin" domainObjectName="Admin"></table>
+        -->
         <table tableName="${jdbc.table.items}"></table>
         <table tableName="${jdbc.table.orders}"></table>
         <table tableName="${jdbc.table.orderdetail}"></table>
