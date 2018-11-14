@@ -61,10 +61,10 @@
         当不以表名作为domain的类名时，可通过domainObjectName 属性定义类名
         <table tableName="tbl_admin" domainObjectName="Admin"></table>
         -->
-        <table tableName="${jdbc.table.items}"></table>
-        <table tableName="${jdbc.table.orders}"></table>
-        <table tableName="${jdbc.table.orderdetail}"></table>
-        <table tableName="${jdbc.table.user}"></table>
+        <table tableName="${jdbc.table1}"></table>
+        <table tableName="${jdbc.table2}"></table>
+        <table tableName="${jdbc.table3}"></table>
+        <table tableName="${jdbc.table4}"></table>
         <!-- <table schema="" tableName="sys_user"></table>
         <table schema="" tableName="sys_role"></table>
         <table schema="" tableName="sys_permission"></table>
